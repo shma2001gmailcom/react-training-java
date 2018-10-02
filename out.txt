@@ -1,0 +1,1475 @@
+Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T21:33:14+03:00)
+Maven home: C:\maven-3.5.4\bin\..
+Java version: 1.8.0_171, vendor: Oracle Corporation, runtime: C:\jdk1.8.0_171\jre
+Default locale: en_US, platform encoding: Cp1251
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\maven-3.5.4\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\mikhail_shevelin\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\maven-3.5.4\bin\..\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\mikhail_shevelin\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\mikhail_shevelin\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\mikhail_shevelin\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.misha:react-back:war:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging war from ClassRealm[plexus.core, parent: null]
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.misha:react-back:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ line 270, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.misha:react-back:war:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ------------------------< org.misha:react-back >------------------------
+[INFO] Building react-back 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.misha:react-back:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-antrun-plugin:1.8:run (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <exportAntProperties default-value="false"/>
+  <failOnError default-value="true"/>
+  <localRepository>${localRepository}</localRepository>
+  <pluginArtifacts>${plugin.artifacts}</pluginArtifacts>
+  <project default-value="${project}"/>
+  <skip default-value="false">${maven.antrun.skip}</skip>
+  <sourceRoot>${sourceRoot}</sourceRoot>
+  <tasks>
+    <copy todir="target/react-back/WEB-INF/" overwrite="true">
+      <fileset dir="webapp/WEB-INF">
+        <include name="*.properties"/>
+        <include name="*.xml"/>
+      </fileset>
+    </copy>
+    <copy todir="target/react-back/WEB-INF/pages/" overwrite="true">
+      <fileset dir="webapp/WEB-INF/pages">
+        <include name="*.**"/>
+      </fileset>
+    </copy>
+  </tasks>
+  <testSourceRoot>${testSourceRoot}</testSourceRoot>
+  <versionsPropertyName default-value="maven.project.dependencies.versions"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">true</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <source default-value="1.5">1.7</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.7</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">true</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <source default-value="1.5">1.7</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.7</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.4.3:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argLine>${argLine}</argLine>
+  <basedir>${basedir}</basedir>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory>${project.build.outputDirectory}</classesDirectory>
+  <classpathElements>${project.testClasspathElements}</classpathElements>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includes>
+    <include>**/*Test*.java</include>
+  </includes>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository>${localRepository}</localRepository>
+  <parallel>${parallel}</parallel>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <project>${project}</project>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories>${project.pluginArtifactRepositories}</remoteRepositories>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+  <session>${session}</session>
+  <skip>${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests>${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory>${project.build.testOutputDirectory}</testClassesDirectory>
+  <testFailureIgnore>${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory>${project.build.testSourceDirectory}</testSourceDirectory>
+  <threadCount>${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader>${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <workingDirectory>${basedir}</workingDirectory>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-war-plugin:2.2:war (default-war)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <archiveClasses default-value="false">${archiveClasses}</archiveClasses>
+  <attachClasses default-value="false"/>
+  <cacheFile default-value="${project.build.directory}/war/work/webapp-cache.xml"/>
+  <classesClassifier default-value="classes"/>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <containerConfigXML>${maven.war.containerConfigXML}</containerConfigXML>
+  <escapeString>${maven.war.escapeString}</escapeString>
+  <escapedBackslashesInFilePath default-value="false">${maven.war.escapedBackslashesInFilePath}</escapedBackslashesInFilePath>
+  <failOnMissingWebXml default-value="true">${failOnMissingWebXml}</failOnMissingWebXml>
+  <filteringDeploymentDescriptors default-value="false">${maven.war.filteringDeploymentDescriptors}</filteringDeploymentDescriptors>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <primaryArtifact default-value="true">${primaryArtifact}</primaryArtifact>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <useCache default-value="false">${useCache}</useCache>
+  <warName default-value="${project.build.finalName}"/>
+  <warSourceDirectory default-value="${basedir}/src/main/webapp"/>
+  <warSourceIncludes default-value="**"/>
+  <webXml>webapp\WEB-INF\web.xml</webXml>
+  <webappDirectory default-value="${project.build.directory}/${project.build.finalName}"/>
+  <workDirectory default-value="${project.build.directory}/war/work"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1352119, ConflictMarker.markTime=800472, ConflictMarker.nodeCount=64, ConflictIdSorter.graphTime=726467, ConflictIdSorter.topsortTime=390041, ConflictIdSorter.conflictIdCount=38, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=7507072, ConflictResolver.conflictItemCount=62, DefaultDependencyCollector.collectTime=272937311, DefaultDependencyCollector.transformTime=13485318}
+[DEBUG] org.misha:react-back:war:1.0-SNAPSHOT
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]    commons-io:commons-io:jar:1.3.2:compile
+[DEBUG]    commons-beanutils:commons-beanutils:jar:1.9.2:compile
+[DEBUG]       commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]    org.springframework:spring-core:jar:4.0.3.RELEASE:compile
+[DEBUG]    org.springframework:spring-web:jar:4.0.3.RELEASE:compile
+[DEBUG]       org.springframework:spring-aop:jar:4.0.3.RELEASE:compile
+[DEBUG]          aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]       org.springframework:spring-beans:jar:4.0.3.RELEASE:compile
+[DEBUG]       org.springframework:spring-context:jar:4.0.3.RELEASE:compile
+[DEBUG]    org.springframework:spring-test:jar:4.0.3.RELEASE:test
+[DEBUG]    org.springframework:spring-webmvc:jar:4.0.3.RELEASE:compile
+[DEBUG]       org.springframework:spring-expression:jar:4.0.3.RELEASE:compile
+[DEBUG]    org.springframework:spring-jdbc:jar:4.0.3.RELEASE:compile
+[DEBUG]       org.springframework:spring-tx:jar:4.0.3.RELEASE:compile
+[DEBUG]    javax.servlet:servlet-api:jar:2.5:compile
+[DEBUG]    javax.servlet.jsp:jsp-api:jar:2.1:provided
+[DEBUG]    taglibs:standard:jar:1.1.1:runtime
+[DEBUG]    taglibs:c:tld:1.1.1:runtime
+[DEBUG]    taglibs:fmt:tld:1.1.1:runtime
+[DEBUG]    javax.servlet:jstl:jar:1.2:runtime
+[DEBUG]    javax.inject:javax.inject:jar:1:compile
+[DEBUG]    javax.mail:mail:jar:1.4:compile
+[DEBUG]       javax.activation:activation:jar:1.1:compile
+[DEBUG]    org.apache.commons:commons-email:jar:1.3.3:compile
+[DEBUG]    org.slf4j:slf4j-api:jar:1.6.1:compile
+[DEBUG]    log4j:log4j:jar:1.2.17:compile
+[DEBUG]    org.slf4j:jcl-over-slf4j:jar:1.6.1:runtime
+[DEBUG]    org.slf4j:slf4j-log4j12:jar:1.6.1:runtime
+[DEBUG]    junit:junit:jar:4.8.2:test
+[DEBUG]    com.googlecode.wicket-jquery-ui:jquery-ui-core:jar:6.2.1:compile
+[DEBUG]    org.aspectj:aspectjrt:jar:1.7.4:runtime
+[DEBUG]    org.aspectj:aspectjtools:jar:1.7.4:compile
+[DEBUG]    mysql:mysql-connector-java:jar:8.0.12:compile
+[DEBUG]       com.google.protobuf:protobuf-java:jar:2.6.0:compile
+[DEBUG]    com.google.code.findbugs:jsr305:jar:2.0.0:compile
+[DEBUG]    com.google.code.gson:gson:jar:2.8.5:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ react-back ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=28697, ConflictMarker.markTime=51351, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=7930, ConflictIdSorter.topsortTime=12837, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=175953, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=24428757, DefaultDependencyCollector.transformTime=405900}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\mikhail_shevelin\workspace\react-back\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[DEBUG]   (f) reportDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Users\mikhail_shevelin\workspace\react-back\target
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes\org\misha\MishaSerializerTest.class
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes\org\misha
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes\org
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\surefire-reports\TEST-org.misha.MishaSerializerTest.xml
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\surefire-reports\org.misha.MishaSerializerTest.txt
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\surefire-reports
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back.war
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\web.xml
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\tld\fmt-1.1.1.tld
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\tld\c-1.1.1.tld
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\tld
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\pages\index.jsp
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\pages
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\mvc-dispatcher-servlet.xml
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\standard-1.1.1.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\spring-webmvc-4.0.3.RELEASE.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\spring-web-4.0.3.RELEASE.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\spring-tx-4.0.3.RELEASE.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\spring-jdbc-4.0.3.RELEASE.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\spring-expression-4.0.3.RELEASE.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\spring-core-4.0.3.RELEASE.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\spring-context-4.0.3.RELEASE.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\spring-beans-4.0.3.RELEASE.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\spring-aop-4.0.3.RELEASE.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\slf4j-log4j12-1.6.1.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\slf4j-api-1.6.1.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\servlet-api-2.5.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\protobuf-java-2.6.0.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\mysql-connector-java-8.0.12.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\mail-1.4.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\log4j-1.2.17.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\jstl-1.2.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\jsr305-2.0.0.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\jquery-ui-core-6.2.1.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\jcl-over-slf4j-1.6.1.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\javax.inject-1.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\gson-2.8.5.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\commons-logging-1.1.1.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\commons-lang3-3.1.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\commons-io-1.3.2.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\commons-email-1.3.3.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\commons-collections-3.2.1.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\commons-beanutils-1.9.2.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\aspectjtools-1.7.4.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\aspectjrt-1.7.4.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\aopalliance-1.0.jar
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\activation-1.1.jar
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org\misha\RestController.class
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org\misha\MishaServiceImpl.class
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org\misha\MishaService.class
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org\misha\MishaSerializer.class
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org\misha\Misha.class
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org\misha\CorsFilter.class
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org\misha
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\applicationContext.xml
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\META-INF
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\react-back
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\maven-archiver\pom.properties
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\maven-archiver
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\generated-sources\test-annotations
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\generated-sources\annotations
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\generated-sources
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org\misha\RestController.class
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org\misha\MishaServiceImpl.class
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org\misha\MishaService.class
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org\misha\MishaSerializer.class
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org\misha\Misha.class
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org\misha\CorsFilter.class
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org\misha
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\antrun\build-main.xml
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\antrun
+[INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target
+[DEBUG] Skipping non-existing directory C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[DEBUG] Skipping non-existing directory C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\mikhail_shevelin\workspace\react-back\target\site
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (default) @ react-back ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=141215, ConflictMarker.markTime=105723, ConflictMarker.nodeCount=37, ConflictIdSorter.graphTime=54749, ConflictIdSorter.topsortTime=20012, ConflictIdSorter.conflictIdCount=18, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=596201, ConflictResolver.conflictItemCount=37, DefaultDependencyCollector.collectTime=168126018, DefaultDependencyCollector.transformTime=939423}
+[DEBUG] org.apache.maven.plugins:maven-antrun-plugin:jar:1.8:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[DEBUG]    org.apache.ant:ant:jar:1.9.4:compile
+[DEBUG]       org.apache.ant:ant-launcher:jar:1.9.4:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-antrun-plugin:1.8
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-antrun-plugin:1.8
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-antrun-plugin:1.8
+[DEBUG]   Included: org.apache.maven.plugins:maven-antrun-plugin:jar:1.8
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.20
+[DEBUG]   Included: org.apache.ant:ant:jar:1.9.4
+[DEBUG]   Included: org.apache.ant:ant-launcher:jar:1.9.4
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-antrun-plugin:1.8:run from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-antrun-plugin:1.8, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-antrun-plugin:1.8:run' with basic configurator -->
+[DEBUG]   (f) exportAntProperties = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/mikhail_shevelin/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) pluginArtifacts = [org.apache.maven.plugins:maven-antrun-plugin:maven-plugin:1.8:, org.apache.maven:maven-plugin-api:jar:2.2.1:compile, org.apache.maven:maven-project:jar:2.2.1:compile, org.apache.maven:maven-settings:jar:2.2.1:compile, org.apache.maven:maven-profile:jar:2.2.1:compile, org.apache.maven:maven-model:jar:2.2.1:compile, org.apache.maven:maven-artifact-manager:jar:2.2.1:compile, org.apache.maven:maven-repository-metadata:jar:2.2.1:compile, backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven:maven-plugin-registry:jar:2.2.1:compile, org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, junit:junit:jar:3.8.1:compile, classworlds:classworlds:jar:1.1-alpha-2:compile, org.apache.maven:maven-artifact:jar:2.2.1:compile, org.codehaus.plexus:plexus-utils:jar:3.0.20:compile, org.apache.ant:ant:jar:1.9.4:compile, org.apache.ant:ant-launcher:jar:1.9.4:compile]
+[DEBUG]   (f) project = MavenProject: org.misha:react-back:1.0-SNAPSHOT @ C:\Users\mikhail_shevelin\workspace\react-back\pom.xml
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) tasks = <tasks><copy todir="target/react-back/WEB-INF/" overwrite="true"><fileset dir="webapp/WEB-INF"><include name="*.properties"/>
+<include name="*.xml"/>
+</fileset>
+</copy>
+<copy todir="target/react-back/WEB-INF/pages/" overwrite="true"><fileset dir="webapp/WEB-INF/pages"><include name="*.**"/>
+</fileset>
+</copy>
+</tasks>
+
+[DEBUG]   (f) versionsPropertyName = maven.project.dependencies.versions
+[DEBUG] -- end configuration --
+[WARNING] Parameter tasks is deprecated, use target instead
+Project base dir set to: C:\Users\mikhail_shevelin\workspace\react-back
+Adding reference: maven.dependency.classpath
+Adding reference: maven.compile.classpath
+Adding reference: maven.runtime.classpath
+Adding reference: maven.test.classpath
+Adding reference: maven.plugin.classpath
+Adding reference: maven.project
+Adding reference: maven.project.helper
+Adding reference: maven.local.repository
+[DEBUG] Initialize Maven Ant Tasks
+parsing buildfile jar:file:/C:/Users/mikhail_shevelin/.m2/repository/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.jar!/org/apache/maven/ant/tasks/antlib.xml with URI = jar:file:/C:/Users/mikhail_shevelin/.m2/repository/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.jar!/org/apache/maven/ant/tasks/antlib.xml from a zip file
+parsing buildfile jar:file:/C:/Users/mikhail_shevelin/.m2/repository/org/apache/ant/ant/1.9.4/ant-1.9.4.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/C:/Users/mikhail_shevelin/.m2/repository/org/apache/ant/ant/1.9.4/ant-1.9.4.jar!/org/apache/tools/ant/antlib.xml from a zip file
+Class org.apache.maven.ant.tasks.AttachArtifactTask loaded from parent loader (parentFirst)
+ +Datatype attachartifact org.apache.maven.ant.tasks.AttachArtifactTask
+Class org.apache.maven.ant.tasks.DependencyFilesetsTask loaded from parent loader (parentFirst)
+ +Datatype dependencyfilesets org.apache.maven.ant.tasks.DependencyFilesetsTask
+Setting project property: aspectj.version -> 1.7.4
+Setting project property: project.reporting.outputEncoding -> UTF-8
+Setting project property: antrun.version -> 1.8
+Setting project property: spring.version -> 4.0.3.RELEASE
+Setting project property: application-name -> react-back
+Setting project property: project.build.sourceEncoding -> UTF-8
+Setting project property: mysql-version -> 8.0.12
+Setting project property: org.slf4j-version -> 1.6.1
+Setting project property: ant.file -> C:\Users\mikhail_shevelin\workspace\react-back\pom.xml
+[DEBUG] Setting properties with prefix: 
+Setting project property: project.groupId -> org.misha
+Setting project property: project.artifactId -> react-back
+Setting project property: project.name -> react-back
+Setting project property: project.version -> 1.0-SNAPSHOT
+Setting project property: project.packaging -> war
+Setting project property: project.build.directory -> C:\Users\mikhail_shevelin\workspace\react-back\target
+Setting project property: project.build.outputDirectory -> C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+Setting project property: project.build.testOutputDirectory -> C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+Setting project property: project.build.sourceDirectory -> C:\Users\mikhail_shevelin\workspace\react-back\src\main\java
+Setting project property: project.build.testSourceDirectory -> C:\Users\mikhail_shevelin\workspace\react-back\src\test\java
+Setting project property: localRepository ->       id: local
+      url: file:///C:/Users/mikhail_shevelin/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+Setting project property: settings.localRepository -> C:\Users\mikhail_shevelin\.m2\repository
+Setting project property: org.apache.commons:commons-lang3:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar
+Setting project property: commons-io:commons-io:jar -> C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar
+Setting project property: commons-beanutils:commons-beanutils:jar -> C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar
+Setting project property: commons-logging:commons-logging:jar -> C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar
+Setting project property: commons-collections:commons-collections:jar -> C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar
+Setting project property: org.springframework:spring-core:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar
+Setting project property: org.springframework:spring-web:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar
+Setting project property: org.springframework:spring-aop:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar
+Setting project property: aopalliance:aopalliance:jar -> C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+Setting project property: org.springframework:spring-beans:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar
+Setting project property: org.springframework:spring-context:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar
+Setting project property: org.springframework:spring-test:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-test\4.0.3.RELEASE\spring-test-4.0.3.RELEASE.jar
+Setting project property: org.springframework:spring-webmvc:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar
+Setting project property: org.springframework:spring-expression:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar
+Setting project property: org.springframework:spring-jdbc:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar
+Setting project property: org.springframework:spring-tx:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar
+Setting project property: javax.servlet:servlet-api:jar -> C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar
+Setting project property: javax.servlet.jsp:jsp-api:jar -> C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar
+Setting project property: taglibs:standard:jar -> C:\Users\mikhail_shevelin\.m2\repository\taglibs\standard\1.1.1\standard-1.1.1.jar
+Setting project property: taglibs:c:tld -> C:\Users\mikhail_shevelin\.m2\repository\taglibs\c\1.1.1\c-1.1.1.tld
+Setting project property: taglibs:fmt:tld -> C:\Users\mikhail_shevelin\.m2\repository\taglibs\fmt\1.1.1\fmt-1.1.1.tld
+Setting project property: javax.servlet:jstl:jar -> C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar
+Setting project property: javax.inject:javax.inject:jar -> C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar
+Setting project property: javax.mail:mail:jar -> C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar
+Setting project property: javax.activation:activation:jar -> C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+Setting project property: org.apache.commons:commons-email:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar
+Setting project property: org.slf4j:slf4j-api:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar
+Setting project property: log4j:log4j:jar -> C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+Setting project property: org.slf4j:jcl-over-slf4j:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.1\jcl-over-slf4j-1.6.1.jar
+Setting project property: org.slf4j:slf4j-log4j12:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar
+Setting project property: junit:junit:jar -> C:\Users\mikhail_shevelin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar
+Setting project property: com.googlecode.wicket-jquery-ui:jquery-ui-core:jar -> C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar
+Setting project property: org.aspectj:aspectjrt:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjrt\1.7.4\aspectjrt-1.7.4.jar
+Setting project property: org.aspectj:aspectjtools:jar -> C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar
+Setting project property: mysql:mysql-connector-java:jar -> C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar
+Setting project property: com.google.protobuf:protobuf-java:jar -> C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar
+Setting project property: com.google.code.findbugs:jsr305:jar -> C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar
+Setting project property: com.google.code.gson:gson:jar -> C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar
+Setting project property: maven.project.dependencies.versions -> 3.1;1.3.2;1.9.2;1.1.1;3.2.1;4.0.3.RELEASE;4.0.3.RELEASE;4.0.3.RELEASE;1.0;4.0.3.RELEASE;4.0.3.RELEASE;4.0.3.RELEASE;4.0.3.RELEASE;4.0.3.RELEASE;4.0.3.RELEASE;4.0.3.RELEASE;2.5;2.1;1.1.1;1.1.1;1.1.1;1.2;1;1.4;1.1;1.3.3;1.6.1;1.2.17;1.6.1;1.6.1;4.8.2;6.2.1;1.7.4;1.7.4;8.0.12;2.6.0;2.0.0;2.8.5;
+Setting project property: maven.dependency.org.apache.commons.commons-lang3.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar
+Setting project property: maven.dependency.commons-io.commons-io.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar
+Setting project property: maven.dependency.commons-beanutils.commons-beanutils.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar
+Setting project property: maven.dependency.commons-logging.commons-logging.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar
+Setting project property: maven.dependency.commons-collections.commons-collections.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar
+Setting project property: maven.dependency.org.springframework.spring-core.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar
+Setting project property: maven.dependency.org.springframework.spring-web.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar
+Setting project property: maven.dependency.org.springframework.spring-aop.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar
+Setting project property: maven.dependency.aopalliance.aopalliance.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+Setting project property: maven.dependency.org.springframework.spring-beans.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar
+Setting project property: maven.dependency.org.springframework.spring-context.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar
+Setting project property: maven.dependency.org.springframework.spring-test.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-test\4.0.3.RELEASE\spring-test-4.0.3.RELEASE.jar
+Setting project property: maven.dependency.org.springframework.spring-webmvc.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar
+Setting project property: maven.dependency.org.springframework.spring-expression.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar
+Setting project property: maven.dependency.org.springframework.spring-jdbc.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar
+Setting project property: maven.dependency.org.springframework.spring-tx.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar
+Setting project property: maven.dependency.javax.servlet.servlet-api.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar
+Setting project property: maven.dependency.javax.servlet.jsp.jsp-api.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar
+Setting project property: maven.dependency.taglibs.standard.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\taglibs\standard\1.1.1\standard-1.1.1.jar
+Setting project property: maven.dependency.taglibs.c.tld.path -> C:\Users\mikhail_shevelin\.m2\repository\taglibs\c\1.1.1\c-1.1.1.tld
+Setting project property: maven.dependency.taglibs.fmt.tld.path -> C:\Users\mikhail_shevelin\.m2\repository\taglibs\fmt\1.1.1\fmt-1.1.1.tld
+Setting project property: maven.dependency.javax.servlet.jstl.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar
+Setting project property: maven.dependency.javax.inject.javax.inject.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar
+Setting project property: maven.dependency.javax.mail.mail.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar
+Setting project property: maven.dependency.javax.activation.activation.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+Setting project property: maven.dependency.org.apache.commons.commons-email.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar
+Setting project property: maven.dependency.org.slf4j.slf4j-api.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar
+Setting project property: maven.dependency.log4j.log4j.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+Setting project property: maven.dependency.org.slf4j.jcl-over-slf4j.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.1\jcl-over-slf4j-1.6.1.jar
+Setting project property: maven.dependency.org.slf4j.slf4j-log4j12.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar
+Setting project property: maven.dependency.junit.junit.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar
+Setting project property: maven.dependency.com.googlecode.wicket-jquery-ui.jquery-ui-core.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar
+Setting project property: maven.dependency.org.aspectj.aspectjrt.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjrt\1.7.4\aspectjrt-1.7.4.jar
+Setting project property: maven.dependency.org.aspectj.aspectjtools.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar
+Setting project property: maven.dependency.mysql.mysql-connector-java.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar
+Setting project property: maven.dependency.com.google.protobuf.protobuf-java.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar
+Setting project property: maven.dependency.com.google.code.findbugs.jsr305.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar
+Setting project property: maven.dependency.com.google.code.gson.gson.jar.path -> C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar
+[INFO] Executing tasks
+Build sequence for target(s) `main' is [main]
+Complete build sequence is [main, ]
+
+main:
+fileset: Setup scanner in dir C:\Users\mikhail_shevelin\workspace\react-back\webapp\WEB-INF with patternSet{ includes: [*.properties, *.xml] excludes: [] }
+     [copy] Copying 3 files to C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF
+     [copy] Copying C:\Users\mikhail_shevelin\workspace\react-back\webapp\WEB-INF\applicationContext.xml to C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\applicationContext.xml
+     [copy] Copying C:\Users\mikhail_shevelin\workspace\react-back\webapp\WEB-INF\mvc-dispatcher-servlet.xml to C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\mvc-dispatcher-servlet.xml
+     [copy] Copying C:\Users\mikhail_shevelin\workspace\react-back\webapp\WEB-INF\web.xml to C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\web.xml
+fileset: Setup scanner in dir C:\Users\mikhail_shevelin\workspace\react-back\webapp\WEB-INF\pages with patternSet{ includes: [*.**] excludes: [] }
+     [copy] Copying 1 file to C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\pages
+     [copy] Copying C:\Users\mikhail_shevelin\workspace\react-back\webapp\WEB-INF\pages\index.jsp to C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\pages\index.jsp
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ react-back ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=389664, ConflictMarker.markTime=148390, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=122714, ConflictIdSorter.topsortTime=33227, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1076485, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=138398663, DefaultDependencyCollector.transformTime=1804839}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.misha:react-back:1.0-SNAPSHOT @ C:\Users\mikhail_shevelin\workspace\react-back\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\mikhail_shevelin\workspace\react-back\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@38f2e97e
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\WINDOWS, env.USERDOMAIN_ROAMINGPROFILE=MOSCOW, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.ONEDRIVE=C:\Users\mikhail_shevelin\OneDrive, env.PROMPT=$P$G, env.WDIR=C:\, os.name=Windows 10, sun.boot.class.path=C:\jdk1.8.0_171\jre\lib\resources.jar;C:\jdk1.8.0_171\jre\lib\rt.jar;C:\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\jdk1.8.0_171\jre\lib\jsse.jar;C:\jdk1.8.0_171\jre\lib\jce.jar;C:\jdk1.8.0_171\jre\lib\charsets.jar;C:\jdk1.8.0_171\jre\lib\jfr.jar;C:\jdk1.8.0_171\jre\classes, env.COMPUTERNAME=EPRUMOSL8735, env.PWD=C:/Users/mikhail_shevelin/workspace/react-back, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_171-b11, env.GOPATH=C:\Users\mikhail_shevelin\go, env.CHOCOLATEYLASTPATHUPDATE=Fri Sep 14 16:41:27 2018, env.HOMEPATH=\Users\mikhail_shevelin, project.build.sourceEncoding=UTF-8, mysql-version=8.0.12, user.name=Mikhail_Shevelin, env._=C:/maven-3.5.4/bin/mvn.cmd, maven.build.version=Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T21:33:14+03:00), env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.MSYSTEM=MINGW64, env.PATH=C:\Git\mingw64\bin;C:\Git\usr\bin;C:\Users\mikhail_shevelin\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\TortoiseSVN\bin;C:\Git\cmd;C:\Go\bin;C:\nodejs;C:\Users\mikhail_shevelin\AppData\Local\Microsoft\WindowsApps;C:\Users\mikhail_shevelin\AppData\Local\GitHubDesktop\bin;C:\Users\mikhail_shevelin\AppData\Local\atom\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Gradle\bin;C:\zookeeper-3.4.12\bin;C:\Users\mikhail_shevelin\go\bin;C:\Users\mikhail_shevelin\AppData\Roaming\npm;C:\nodejs;C:\Microsoft VS Code\bin;C;C:\Git\maven-3.5.4\bin, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.EXEPATH=C:\Git\bin, env.WINDIR=C:\WINDOWS, sun.boot.library.path=C:\jdk1.8.0_171\jre\bin, classworlds.conf=C:\maven-3.5.4\bin\..\bin\m2.conf, java.version=1.8.0_171, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel, user.timezone=, env.=A:=A:\, env.TEMP=C:\Users\MIKHAI~1\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=C:\Users\mikhail_shevelin\workspace\react-back, application-name=react-back, org.slf4j-version=1.6.1, java.endorsed.dirs=C:\jdk1.8.0_171\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1251, file.encoding.pkg=sun.io, env.SHLVL=1, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\maven-3.5.4\bin\../conf, antrun.version=1.8, env.JAVACMD=C:\jdk1.8.0_171\bin\java.exe, java.class.version=52.0, user.country=US, java.home=C:\jdk1.8.0_171\jre, env.APPDATA=C:\Users\mikhail_shevelin\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=10.0, env.=::=::\, project.reporting.outputEncoding=UTF-8, path.separator=;, java.vm.version=25.171-b11, user.variant=, env.USERPROFILE=C:\Users\mikhail_shevelin, env.GOROOT=C:\Go\, env.JAVA_HOME=C:\jdk1.8.0_171, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TERM=cygwin, env.TMP=C:\Users\MIKHAI~1\AppData\Local\Temp, env.FPS_BROWSER_USER_PROFILE_STRING=Default, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, env.CHOCOLATEYINSTALL=C:\ProgramData\chocolatey, user.home=C:\Users\mikhail_shevelin, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.OLDPWD=C:/Users/mikhail_shevelin/workspace/react-back/bash, env.SESSIONNAME=Console, aspectj.version=1.7.4, java.specification.vendor=Oracle Corporation, env.M2_HOME=C:/maven-3.5.4, library.jansi.path=C:\maven-3.5.4\bin\..\lib\jansi-native, java.library.path=C:\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Git\mingw64\bin;C:\Git\usr\bin;C:\Users\mikhail_shevelin\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\TortoiseSVN\bin;C:\Git\cmd;C:\Go\bin;C:\nodejs;C:\Users\mikhail_shevelin\AppData\Local\Microsoft\WindowsApps;C:\Users\mikhail_shevelin\AppData\Local\GitHubDesktop\bin;C:\Users\mikhail_shevelin\AppData\Local\atom\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Gradle\bin;C:\zookeeper-3.4.12\bin;C:\Users\mikhail_shevelin\go\bin;C:\Users\mikhail_shevelin\AppData\Roaming\npm;C:\nodejs;C:\Microsoft VS Code\bin;C;C:\Git\maven-3.5.4\bin;., java.vendor.url=http://java.oracle.com/, env.NUMBER_OF_PROCESSORS=4, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.USERDNSDOMAIN=MOSCOW.EPAM.COM, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.MAVEN_CMD_LINE_ARGS=clean install -X, java.vm.vendor=Oracle Corporation, maven.home=C:\maven-3.5.4\bin\.., java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, java.class.path=C:\maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar, env.PROGRAMW6432=C:\Program Files, maven.version=3.5.4, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.ZOOKEEPER_HOME=c:\zookeeper-3.4.12, env.LOGONSERVER=\\EVRUMOSSA0002, java.vm.specification.version=1.8, env.PROCESSOR_ARCHITECTURE=AMD64, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.cpu.endian=little, sun.os.patch.level=, env.HOME=C:\Users\mikhail_shevelin, java.io.tmpdir=C:\Users\MIKHAI~1\AppData\Local\Temp\, env.UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77, env.PROCESSOR_REVISION=8e09, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=C:\Users\mikhail_shevelin\workspace\react-back, env.PROGRAMDATA=C:\ProgramData, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, env.PLINK_PROTOCOL=ssh, java.ext.dirs=C:\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=C:\Users\mikhail_shevelin\workspace\react-back, env.MAVEN_HOME=C:\maven-3.5.4\bin\.., env.LOCALAPPDATA=C:\Users\mikhail_shevelin\AppData\Local, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.CLASSWORLDS_JAR="C:\maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar", env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.M2=C:/maven-3.5.4/bin, env.ERROR_CODE=0, env.USERNAME=Mikhail_Shevelin, spring.version=4.0.3.RELEASE, file.encoding=Cp1251, env.USERDOMAIN=MOSCOW, java.specification.version=1.8, env.=C:=C:\Users\mikhail_shevelin\workspace\react-back, env.MAVEN_PROJECTBASEDIR=C:\Users\mikhail_shevelin\workspace\react-back, env.PROCESSOR_LEVEL=6}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory C:\Users\mikhail_shevelin\workspace\react-back\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ react-back ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=310372, ConflictMarker.markTime=84578, ConflictMarker.nodeCount=101, ConflictIdSorter.graphTime=116673, ConflictIdSorter.topsortTime=29451, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=712118, ConflictResolver.conflictItemCount=49, DefaultDependencyCollector.collectTime=39208423, DefaultDependencyCollector.transformTime=1275848}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:2.3.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:1.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:1.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:1.8.1:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:2.3.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:1.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:1.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:1.8.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\mikhail_shevelin\workspace\react-back
+[DEBUG]   (f) buildDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target
+[DEBUG]   (f) classpathElements = [C:\Users\mikhail_shevelin\workspace\react-back\target\classes, C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar, C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar, C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar, C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar, C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar, C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar, C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar, C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar, C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar, C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\mikhail_shevelin\workspace\react-back\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\generated-sources\annotations
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[DEBUG]   (f) outputFileName = react-back
+[DEBUG]   (f) projectArtifact = org.misha:react-back:war:1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@38f2e97e
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.7
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.7
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\Users\mikhail_shevelin\workspace\react-back\src\main\java]
+[DEBUG] Classpath: [C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+ C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar
+ C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar
+ C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar
+ C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar
+ C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+ C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar
+ C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar
+ C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar
+ C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar
+ C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar]
+[DEBUG] Output directory: C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\mikhail_shevelin\workspace\react-back\src\main\java
+[DEBUG] Command line options:
+[DEBUG] -d C:\Users\mikhail_shevelin\workspace\react-back\target\classes -classpath C:\Users\mikhail_shevelin\workspace\react-back\target\classes;C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar;C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar;C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar;C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar;C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar;C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar;C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar; -sourcepath C:\Users\mikhail_shevelin\workspace\react-back\src\main\java; C:\Users\mikhail_shevelin\workspace\react-back\src\main\java\org\misha\MishaService.java C:\Users\mikhail_shevelin\workspace\react-back\src\main\java\org\misha\RestController.java C:\Users\mikhail_shevelin\workspace\react-back\src\main\java\org\misha\CorsFilter.java C:\Users\mikhail_shevelin\workspace\react-back\src\main\java\org\misha\MishaSerializer.java C:\Users\mikhail_shevelin\workspace\react-back\src\main\java\org\misha\Misha.java C:\Users\mikhail_shevelin\workspace\react-back\src\main\java\org\misha\MishaServiceImpl.java -s C:\Users\mikhail_shevelin\workspace\react-back\target\generated-sources\annotations -g -nowarn -target 1.7 -source 1.7 -encoding UTF-8
+[INFO] Compiling 6 source files to C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ react-back ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.misha:react-back:1.0-SNAPSHOT @ C:\Users\mikhail_shevelin\workspace\react-back\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\mikhail_shevelin\workspace\react-back\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@38f2e97e
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\WINDOWS, env.USERDOMAIN_ROAMINGPROFILE=MOSCOW, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.ONEDRIVE=C:\Users\mikhail_shevelin\OneDrive, env.PROMPT=$P$G, env.WDIR=C:\, os.name=Windows 10, sun.boot.class.path=C:\jdk1.8.0_171\jre\lib\resources.jar;C:\jdk1.8.0_171\jre\lib\rt.jar;C:\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\jdk1.8.0_171\jre\lib\jsse.jar;C:\jdk1.8.0_171\jre\lib\jce.jar;C:\jdk1.8.0_171\jre\lib\charsets.jar;C:\jdk1.8.0_171\jre\lib\jfr.jar;C:\jdk1.8.0_171\jre\classes, env.COMPUTERNAME=EPRUMOSL8735, env.PWD=C:/Users/mikhail_shevelin/workspace/react-back, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_171-b11, env.GOPATH=C:\Users\mikhail_shevelin\go, env.CHOCOLATEYLASTPATHUPDATE=Fri Sep 14 16:41:27 2018, env.HOMEPATH=\Users\mikhail_shevelin, project.build.sourceEncoding=UTF-8, mysql-version=8.0.12, user.name=Mikhail_Shevelin, env._=C:/maven-3.5.4/bin/mvn.cmd, maven.build.version=Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T21:33:14+03:00), env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.MSYSTEM=MINGW64, env.PATH=C:\Git\mingw64\bin;C:\Git\usr\bin;C:\Users\mikhail_shevelin\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\TortoiseSVN\bin;C:\Git\cmd;C:\Go\bin;C:\nodejs;C:\Users\mikhail_shevelin\AppData\Local\Microsoft\WindowsApps;C:\Users\mikhail_shevelin\AppData\Local\GitHubDesktop\bin;C:\Users\mikhail_shevelin\AppData\Local\atom\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Gradle\bin;C:\zookeeper-3.4.12\bin;C:\Users\mikhail_shevelin\go\bin;C:\Users\mikhail_shevelin\AppData\Roaming\npm;C:\nodejs;C:\Microsoft VS Code\bin;C;C:\Git\maven-3.5.4\bin, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.EXEPATH=C:\Git\bin, env.WINDIR=C:\WINDOWS, sun.boot.library.path=C:\jdk1.8.0_171\jre\bin, classworlds.conf=C:\maven-3.5.4\bin\..\bin\m2.conf, java.version=1.8.0_171, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel, user.timezone=, env.=A:=A:\, env.TEMP=C:\Users\MIKHAI~1\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=C:\Users\mikhail_shevelin\workspace\react-back, application-name=react-back, org.slf4j-version=1.6.1, java.endorsed.dirs=C:\jdk1.8.0_171\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1251, file.encoding.pkg=sun.io, env.SHLVL=1, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\maven-3.5.4\bin\../conf, antrun.version=1.8, env.JAVACMD=C:\jdk1.8.0_171\bin\java.exe, java.class.version=52.0, user.country=US, java.home=C:\jdk1.8.0_171\jre, env.APPDATA=C:\Users\mikhail_shevelin\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=10.0, env.=::=::\, project.reporting.outputEncoding=UTF-8, path.separator=;, java.vm.version=25.171-b11, user.variant=, env.USERPROFILE=C:\Users\mikhail_shevelin, env.GOROOT=C:\Go\, env.JAVA_HOME=C:\jdk1.8.0_171, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TERM=cygwin, env.TMP=C:\Users\MIKHAI~1\AppData\Local\Temp, env.FPS_BROWSER_USER_PROFILE_STRING=Default, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, env.CHOCOLATEYINSTALL=C:\ProgramData\chocolatey, user.home=C:\Users\mikhail_shevelin, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.OLDPWD=C:/Users/mikhail_shevelin/workspace/react-back/bash, env.SESSIONNAME=Console, aspectj.version=1.7.4, java.specification.vendor=Oracle Corporation, env.M2_HOME=C:/maven-3.5.4, library.jansi.path=C:\maven-3.5.4\bin\..\lib\jansi-native, java.library.path=C:\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Git\mingw64\bin;C:\Git\usr\bin;C:\Users\mikhail_shevelin\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\TortoiseSVN\bin;C:\Git\cmd;C:\Go\bin;C:\nodejs;C:\Users\mikhail_shevelin\AppData\Local\Microsoft\WindowsApps;C:\Users\mikhail_shevelin\AppData\Local\GitHubDesktop\bin;C:\Users\mikhail_shevelin\AppData\Local\atom\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Gradle\bin;C:\zookeeper-3.4.12\bin;C:\Users\mikhail_shevelin\go\bin;C:\Users\mikhail_shevelin\AppData\Roaming\npm;C:\nodejs;C:\Microsoft VS Code\bin;C;C:\Git\maven-3.5.4\bin;., java.vendor.url=http://java.oracle.com/, env.NUMBER_OF_PROCESSORS=4, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.USERDNSDOMAIN=MOSCOW.EPAM.COM, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.MAVEN_CMD_LINE_ARGS=clean install -X, java.vm.vendor=Oracle Corporation, maven.home=C:\maven-3.5.4\bin\.., java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, java.class.path=C:\maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar, env.PROGRAMW6432=C:\Program Files, maven.version=3.5.4, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.ZOOKEEPER_HOME=c:\zookeeper-3.4.12, env.LOGONSERVER=\\EVRUMOSSA0002, java.vm.specification.version=1.8, env.PROCESSOR_ARCHITECTURE=AMD64, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.cpu.endian=little, sun.os.patch.level=, env.HOME=C:\Users\mikhail_shevelin, java.io.tmpdir=C:\Users\MIKHAI~1\AppData\Local\Temp\, env.UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77, env.PROCESSOR_REVISION=8e09, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=C:\Users\mikhail_shevelin\workspace\react-back, env.PROGRAMDATA=C:\ProgramData, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, env.PLINK_PROTOCOL=ssh, java.ext.dirs=C:\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, user.dir=C:\Users\mikhail_shevelin\workspace\react-back, env.MAVEN_HOME=C:\maven-3.5.4\bin\.., env.LOCALAPPDATA=C:\Users\mikhail_shevelin\AppData\Local, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.CLASSWORLDS_JAR="C:\maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar", env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.M2=C:/maven-3.5.4/bin, env.ERROR_CODE=0, env.USERNAME=Mikhail_Shevelin, spring.version=4.0.3.RELEASE, file.encoding=Cp1251, env.USERDOMAIN=MOSCOW, java.specification.version=1.8, env.=C:=C:\Users\mikhail_shevelin\workspace\react-back, env.MAVEN_PROJECTBASEDIR=C:\Users\mikhail_shevelin\workspace\react-back, env.PROCESSOR_LEVEL=6}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory C:\Users\mikhail_shevelin\workspace\react-back\src\test\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ react-back ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\mikhail_shevelin\workspace\react-back
+[DEBUG]   (f) buildDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target
+[DEBUG]   (f) classpathElements = [C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes, C:\Users\mikhail_shevelin\workspace\react-back\target\classes, C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-test\4.0.3.RELEASE\spring-test-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar, C:\Users\mikhail_shevelin\.m2\repository\taglibs\standard\1.1.1\standard-1.1.1.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar, C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar, C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar, C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar, C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.1\jcl-over-slf4j-1.6.1.jar, C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar, C:\Users\mikhail_shevelin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar, C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar, C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjrt\1.7.4\aspectjrt-1.7.4.jar, C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar, C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar, C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar, C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar, C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\mikhail_shevelin\workspace\react-back\src\test\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\generated-sources\test-annotations
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+[DEBUG]   (f) outputFileName = react-back
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@38f2e97e
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.7
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.7
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\Users\mikhail_shevelin\workspace\react-back\src\test\java]
+[DEBUG] Classpath: [C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+ C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+ C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar
+ C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar
+ C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-test\4.0.3.RELEASE\spring-test-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar
+ C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar
+ C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\taglibs\standard\1.1.1\standard-1.1.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar
+ C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar
+ C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.1\jcl-over-slf4j-1.6.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar
+ C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjrt\1.7.4\aspectjrt-1.7.4.jar
+ C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar
+ C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar
+ C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar
+ C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar
+ C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar]
+[DEBUG] Output directory: C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+[DEBUG]  C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-test\4.0.3.RELEASE\spring-test-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\taglibs\standard\1.1.1\standard-1.1.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.1\jcl-over-slf4j-1.6.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjrt\1.7.4\aspectjrt-1.7.4.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar
+[DEBUG]  C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\mikhail_shevelin\workspace\react-back\src\test\java
+[DEBUG] Command line options:
+[DEBUG] -d C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes -classpath C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes;C:\Users\mikhail_shevelin\workspace\react-back\target\classes;C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-test\4.0.3.RELEASE\spring-test-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar;C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\mikhail_shevelin\.m2\repository\taglibs\standard\1.1.1\standard-1.1.1.jar;C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar;C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.1\jcl-over-slf4j-1.6.1.jar;C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;C:\Users\mikhail_shevelin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar;C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjrt\1.7.4\aspectjrt-1.7.4.jar;C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar;C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar;C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar;C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar;C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar; -sourcepath C:\Users\mikhail_shevelin\workspace\react-back\src\test\java; C:\Users\mikhail_shevelin\workspace\react-back\src\test\java\org\misha\MishaSerializerTest.java -s C:\Users\mikhail_shevelin\workspace\react-back\target\generated-sources\test-annotations -g -nowarn -target 1.7 -source 1.7 -encoding UTF-8
+[INFO] Compiling 1 source file to C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.4.3:test (default-test) @ react-back ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=126112, ConflictMarker.markTime=33982, ConflictMarker.nodeCount=63, ConflictIdSorter.graphTime=78160, ConflictIdSorter.topsortTime=22277, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=726466, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=16665685, DefaultDependencyCollector.transformTime=1003233}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.4.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven.surefire:surefire-booter:jar:2.4.3:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.4.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.4.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.4.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.4.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.4.3
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.4.3
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.4.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.4.3:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.4.3, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.4.3:test' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\mikhail_shevelin\workspace\react-back
+[DEBUG]   (f) childDelegation = false
+[DEBUG]   (f) classesDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[DEBUG]   (f) classpathElements = [C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes, C:\Users\mikhail_shevelin\workspace\react-back\target\classes, C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar, C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-test\4.0.3.RELEASE\spring-test-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar, C:\Users\mikhail_shevelin\.m2\repository\taglibs\standard\1.1.1\standard-1.1.1.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar, C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar, C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar, C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar, C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar, C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.1\jcl-over-slf4j-1.6.1.jar, C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar, C:\Users\mikhail_shevelin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar, C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar, C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjrt\1.7.4\aspectjrt-1.7.4.jar, C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar, C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar, C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar, C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar, C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar]
+[DEBUG]   (f) disableXmlReport = false
+[DEBUG]   (f) enableAssertions = true
+[DEBUG]   (f) forkMode = once
+[DEBUG]   (f) includes = [**/*Test*.java]
+[DEBUG]   (f) junitArtifactName = junit:junit
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/mikhail_shevelin/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.4.3:, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.0.6:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.4.3:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.4.3:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.1:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.0.6:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.0.6:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.0.6:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.0.6:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.0.6:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.0.6:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.0.6:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, junit:junit=junit:junit:jar:3.8.1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.0.6:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile, org.apache.maven.doxia:doxia-sink-api=org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.0.6:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile, commons-cli:commons-cli=commons-cli:commons-cli:jar:1.0:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile, org.codehaus.plexus:plexus-interactivity-api=org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.0.6:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:1.0:compile}
+[DEBUG]   (f) printSummary = true
+[DEBUG]   (f) project = MavenProject: org.misha:react-back:1.0-SNAPSHOT @ C:\Users\mikhail_shevelin\workspace\react-back\pom.xml
+[DEBUG]   (f) projectArtifactMap = {org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, commons-io:commons-io=commons-io:commons-io:jar:1.3.2:compile, commons-beanutils:commons-beanutils=commons-beanutils:commons-beanutils:jar:1.9.2:compile, commons-logging:commons-logging=commons-logging:commons-logging:jar:1.1.1:compile, commons-collections:commons-collections=commons-collections:commons-collections:jar:3.2.1:compile, org.springframework:spring-core=org.springframework:spring-core:jar:4.0.3.RELEASE:compile, org.springframework:spring-web=org.springframework:spring-web:jar:4.0.3.RELEASE:compile, org.springframework:spring-aop=org.springframework:spring-aop:jar:4.0.3.RELEASE:compile, aopalliance:aopalliance=aopalliance:aopalliance:jar:1.0:compile, org.springframework:spring-beans=org.springframework:spring-beans:jar:4.0.3.RELEASE:compile, org.springframework:spring-context=org.springframework:spring-context:jar:4.0.3.RELEASE:compile, org.springframework:spring-test=org.springframework:spring-test:jar:4.0.3.RELEASE:test, org.springframework:spring-webmvc=org.springframework:spring-webmvc:jar:4.0.3.RELEASE:compile, org.springframework:spring-expression=org.springframework:spring-expression:jar:4.0.3.RELEASE:compile, org.springframework:spring-jdbc=org.springframework:spring-jdbc:jar:4.0.3.RELEASE:compile, org.springframework:spring-tx=org.springframework:spring-tx:jar:4.0.3.RELEASE:compile, javax.servlet:servlet-api=javax.servlet:servlet-api:jar:2.5:compile, javax.servlet.jsp:jsp-api=javax.servlet.jsp:jsp-api:jar:2.1:provided, taglibs:standard=taglibs:standard:jar:1.1.1:runtime, taglibs:c=taglibs:c:tld:1.1.1:runtime, taglibs:fmt=taglibs:fmt:tld:1.1.1:runtime, javax.servlet:jstl=javax.servlet:jstl:jar:1.2:runtime, javax.inject:javax.inject=javax.inject:javax.inject:jar:1:compile, javax.mail:mail=javax.mail:mail:jar:1.4:compile, javax.activation:activation=javax.activation:activation:jar:1.1:compile, org.apache.commons:commons-email=org.apache.commons:commons-email:jar:1.3.3:compile, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.6.1:compile, log4j:log4j=log4j:log4j:jar:1.2.17:compile, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.6.1:runtime, org.slf4j:slf4j-log4j12=org.slf4j:slf4j-log4j12:jar:1.6.1:runtime, junit:junit=junit:junit:jar:4.8.2:test, com.googlecode.wicket-jquery-ui:jquery-ui-core=com.googlecode.wicket-jquery-ui:jquery-ui-core:jar:6.2.1:compile, org.aspectj:aspectjrt=org.aspectj:aspectjrt:jar:1.7.4:runtime, org.aspectj:aspectjtools=org.aspectj:aspectjtools:jar:1.7.4:compile, mysql:mysql-connector-java=mysql:mysql-connector-java:jar:8.0.12:compile, com.google.protobuf:protobuf-java=com.google.protobuf:protobuf-java:jar:2.6.0:compile, com.google.code.findbugs:jsr305=com.google.code.findbugs:jsr305:jar:2.0.0:compile, com.google.code.gson:gson=com.google.code.gson:gson:jar:2.8.5:compile}
+[DEBUG]   (f) redirectTestOutputToFile = false
+[DEBUG]   (f) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (f) reportFormat = brief
+[DEBUG]   (f) reportsDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\surefire-reports
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@38f2e97e
+[DEBUG]   (f) testClassesDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+[DEBUG]   (f) testNGArtifactName = org.testng:testng
+[DEBUG]   (f) testSourceDirectory = C:\Users\mikhail_shevelin\workspace\react-back\src\test\java
+[DEBUG]   (f) trimStackTrace = true
+[DEBUG]   (f) useFile = true
+[DEBUG]   (f) useManifestOnlyJar = true
+[DEBUG]   (f) workingDirectory = C:\Users\mikhail_shevelin\workspace\react-back
+[DEBUG] -- end configuration --
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.4.3:compile (selected for compile)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.4.3:compile (selected for compile)
+[DEBUG] Adding to surefire booter test classpath: C:\Users\mikhail_shevelin\.m2\repository\org\apache\maven\surefire\surefire-booter\2.4.3\surefire-booter-2.4.3.jar
+[DEBUG] Adding to surefire booter test classpath: C:\Users\mikhail_shevelin\.m2\repository\org\apache\maven\surefire\surefire-api\2.4.3\surefire-api-2.4.3.jar
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-junit4:jar:2.4.3:test (selected for test)
+[DEBUG]     junit:junit:jar:4.0:test (selected for test)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.4.3:test (selected for test)
+[DEBUG] Adding to surefire test classpath: C:\Users\mikhail_shevelin\.m2\repository\org\apache\maven\surefire\surefire-junit4\2.4.3\surefire-junit4-2.4.3.jar
+[DEBUG] Adding to surefire test classpath: C:\Users\mikhail_shevelin\.m2\repository\junit\junit\4.0\junit-4.0.jar
+[DEBUG] Adding to surefire test classpath: C:\Users\mikhail_shevelin\.m2\repository\org\apache\maven\surefire\surefire-api\2.4.3\surefire-api-2.4.3.jar
+[DEBUG] Test Classpath :
+[DEBUG]   C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
+[DEBUG]   C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-test\4.0.3.RELEASE\spring-test-4.0.3.RELEASE.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-webmvc\4.0.3.RELEASE\spring-webmvc-4.0.3.RELEASE.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\taglibs\standard\1.1.1\standard-1.1.1.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\apache\commons\commons-email\1.3.3\commons-email-1.3.3.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.1\jcl-over-slf4j-1.6.1.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\com\googlecode\wicket-jquery-ui\jquery-ui-core\6.2.1\jquery-ui-core-6.2.1.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjrt\1.7.4\aspectjrt-1.7.4.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\mysql\mysql-connector-java\8.0.12\mysql-connector-java-8.0.12.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar
+[DEBUG]   C:\Users\mikhail_shevelin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar
+[DEBUG] Setting system property [user.dir]=[C:\Users\mikhail_shevelin\workspace\react-back]
+[DEBUG] Setting system property [localRepository]=[C:\Users\mikhail_shevelin\.m2\repository]
+[DEBUG] Setting system property [basedir]=[C:\Users\mikhail_shevelin\workspace\react-back]
+[DEBUG] Using JVM: C:\jdk1.8.0_171\jre\bin\java
+[INFO] Surefire report directory: C:\Users\mikhail_shevelin\workspace\react-back\target\surefire-reports
+Forking command line: cmd.exe /X /C "C:\jdk1.8.0_171\jre\bin\java -jar C:\Users\MIKHAI~1\AppData\Local\Temp\surefirebooter2767214521904579484.jar C:\Users\MIKHAI~1\AppData\Local\Temp\surefire6619143524537027495tmp C:\Users\MIKHAI~1\AppData\Local\Temp\surefire7265631312514521674tmp"
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.misha.MishaSerializerTest
+{"name":"misha"}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ react-back ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=126490, ConflictMarker.markTime=78160, ConflictMarker.nodeCount=95, ConflictIdSorter.graphTime=67587, ConflictIdSorter.topsortTime=27186, ConflictIdSorter.conflictIdCount=30, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=977181, ConflictResolver.conflictItemCount=87, DefaultDependencyCollector.collectTime=45750775, DefaultDependencyCollector.transformTime=1305299}
+[DEBUG] org.apache.maven.plugins:maven-war-plugin:jar:2.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-io:jar:2.0.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.15:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    com.thoughtworks.xstream:xstream:jar:1.3.1:compile
+[DEBUG]       xpp3:xpp3_min:jar:1.1.4c:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0-beta-2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-war-plugin:2.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-war-plugin:jar:2.2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.15
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: com.thoughtworks.xstream:xstream:jar:1.3.1
+[DEBUG]   Included: xpp3:xpp3_min:jar:1.1.4c
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0-beta-2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-war-plugin:2.2:war from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-war-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-war-plugin:2.2:war' with basic configurator -->
+[DEBUG]   (s) archiveClasses = false
+[DEBUG]   (s) attachClasses = false
+[DEBUG]   (s) cacheFile = C:\Users\mikhail_shevelin\workspace\react-back\target\war\work\webapp-cache.xml
+[DEBUG]   (s) classesClassifier = classes
+[DEBUG]   (s) classesDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\classes
+[DEBUG]   (f) escapedBackslashesInFilePath = false
+[DEBUG]   (s) failOnMissingWebXml = true
+[DEBUG]   (f) filteringDeploymentDescriptors = false
+[DEBUG]   (s) outputDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target
+[DEBUG]   (s) primaryArtifact = true
+[DEBUG]   (s) project = MavenProject: org.misha:react-back:1.0-SNAPSHOT @ C:\Users\mikhail_shevelin\workspace\react-back\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@38f2e97e
+[DEBUG]   (s) useCache = false
+[DEBUG]   (s) warName = react-back
+[DEBUG]   (s) warSourceDirectory = C:\Users\mikhail_shevelin\workspace\react-back\src\main\webapp
+[DEBUG]   (s) warSourceIncludes = **
+[DEBUG]   (s) webXml = C:\Users\mikhail_shevelin\workspace\react-back\webapp\WEB-INF\web.xml
+[DEBUG]   (s) webappDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\react-back
+[DEBUG]   (s) workDirectory = C:\Users\mikhail_shevelin\workspace\react-back\target\war\work
+[DEBUG] -- end configuration --
+[INFO] Packaging webapp
+[INFO] Assembling webapp [react-back] in [C:\Users\mikhail_shevelin\workspace\react-back\target\react-back]
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\WINDOWS, env.USERDOMAIN_ROAMINGPROFILE=MOSCOW, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.ONEDRIVE=C:\Users\mikhail_shevelin\OneDrive, env.PROMPT=$P$G, env.WDIR=C:\, os.name=Windows 10, sun.boot.class.path=C:\jdk1.8.0_171\jre\lib\resources.jar;C:\jdk1.8.0_171\jre\lib\rt.jar;C:\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\jdk1.8.0_171\jre\lib\jsse.jar;C:\jdk1.8.0_171\jre\lib\jce.jar;C:\jdk1.8.0_171\jre\lib\charsets.jar;C:\jdk1.8.0_171\jre\lib\jfr.jar;C:\jdk1.8.0_171\jre\classes, env.COMPUTERNAME=EPRUMOSL8735, env.PWD=C:/Users/mikhail_shevelin/workspace/react-back, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_171-b11, env.GOPATH=C:\Users\mikhail_shevelin\go, env.CHOCOLATEYLASTPATHUPDATE=Fri Sep 14 16:41:27 2018, env.HOMEPATH=\Users\mikhail_shevelin, project.build.sourceEncoding=UTF-8, mysql-version=8.0.12, user.name=Mikhail_Shevelin, env._=C:/maven-3.5.4/bin/mvn.cmd, maven.build.version=Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T21:33:14+03:00), env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.MSYSTEM=MINGW64, env.PATH=C:\Git\mingw64\bin;C:\Git\usr\bin;C:\Users\mikhail_shevelin\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\TortoiseSVN\bin;C:\Git\cmd;C:\Go\bin;C:\nodejs;C:\Users\mikhail_shevelin\AppData\Local\Microsoft\WindowsApps;C:\Users\mikhail_shevelin\AppData\Local\GitHubDesktop\bin;C:\Users\mikhail_shevelin\AppData\Local\atom\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Gradle\bin;C:\zookeeper-3.4.12\bin;C:\Users\mikhail_shevelin\go\bin;C:\Users\mikhail_shevelin\AppData\Roaming\npm;C:\nodejs;C:\Microsoft VS Code\bin;C;C:\Git\maven-3.5.4\bin, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.EXEPATH=C:\Git\bin, env.WINDIR=C:\WINDOWS, sun.boot.library.path=C:\jdk1.8.0_171\jre\bin, classworlds.conf=C:\maven-3.5.4\bin\..\bin\m2.conf, java.version=1.8.0_171, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel, user.timezone=, env.=A:=A:\, env.TEMP=C:\Users\MIKHAI~1\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=C:\Users\mikhail_shevelin\workspace\react-back, application-name=react-back, org.slf4j-version=1.6.1, java.endorsed.dirs=C:\jdk1.8.0_171\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1251, file.encoding.pkg=sun.io, env.SHLVL=1, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\maven-3.5.4\bin\../conf, antrun.version=1.8, env.JAVACMD=C:\jdk1.8.0_171\bin\java.exe, java.class.version=52.0, user.country=US, java.home=C:\jdk1.8.0_171\jre, env.APPDATA=C:\Users\mikhail_shevelin\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=10.0, env.=::=::\, project.reporting.outputEncoding=UTF-8, path.separator=;, java.vm.version=25.171-b11, user.variant=, env.USERPROFILE=C:\Users\mikhail_shevelin, env.GOROOT=C:\Go\, env.JAVA_HOME=C:\jdk1.8.0_171, env.TERM=cygwin, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.PROGRAMFILES=C:\Program Files, env.FPS_BROWSER_USER_PROFILE_STRING=Default, env.TMP=C:\Users\MIKHAI~1\AppData\Local\Temp, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, env.CHOCOLATEYINSTALL=C:\ProgramData\chocolatey, user.home=C:\Users\mikhail_shevelin, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.SESSIONNAME=Console, env.OLDPWD=C:/Users/mikhail_shevelin/workspace/react-back/bash, java.specification.vendor=Oracle Corporation, aspectj.version=1.7.4, env.M2_HOME=C:/maven-3.5.4, env.NUMBER_OF_PROCESSORS=4, java.vendor.url=http://java.oracle.com/, java.library.path=C:\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Git\mingw64\bin;C:\Git\usr\bin;C:\Users\mikhail_shevelin\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\TortoiseSVN\bin;C:\Git\cmd;C:\Go\bin;C:\nodejs;C:\Users\mikhail_shevelin\AppData\Local\Microsoft\WindowsApps;C:\Users\mikhail_shevelin\AppData\Local\GitHubDesktop\bin;C:\Users\mikhail_shevelin\AppData\Local\atom\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Gradle\bin;C:\zookeeper-3.4.12\bin;C:\Users\mikhail_shevelin\go\bin;C:\Users\mikhail_shevelin\AppData\Roaming\npm;C:\nodejs;C:\Microsoft VS Code\bin;C;C:\Git\maven-3.5.4\bin;., library.jansi.path=C:\maven-3.5.4\bin\..\lib\jansi-native, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, env.USERDNSDOMAIN=MOSCOW.EPAM.COM, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.MAVEN_CMD_LINE_ARGS=clean install -X, java.vm.vendor=Oracle Corporation, java.runtime.name=Java(TM) SE Runtime Environment, maven.home=C:\maven-3.5.4\bin\.., java.class.path=C:\maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, env.PROGRAMW6432=C:\Program Files, maven.version=3.5.4, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.ZOOKEEPER_HOME=c:\zookeeper-3.4.12, java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\EVRUMOSSA0002, env.PROCESSOR_ARCHITECTURE=AMD64, java.vm.specification.version=1.8, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.os.patch.level=, sun.cpu.endian=little, env.HOME=C:\Users\mikhail_shevelin, env.PROCESSOR_REVISION=8e09, env.UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77, java.io.tmpdir=C:\Users\MIKHAI~1\AppData\Local\Temp\, maven.multiModuleProjectDirectory=C:\Users\mikhail_shevelin\workspace\react-back, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.COMSPEC=C:\WINDOWS\system32\cmd.exe, env.PROGRAMDATA=C:\ProgramData, env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=amd64, env.PLINK_PROTOCOL=ssh, java.ext.dirs=C:\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, env.LOCALAPPDATA=C:\Users\mikhail_shevelin\AppData\Local, env.MAVEN_HOME=C:\maven-3.5.4\bin\.., user.dir=C:\Users\mikhail_shevelin\workspace\react-back, line.separator=
+, env.CLASSWORLDS_JAR="C:\maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar", java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ERROR_CODE=0, env.M2=C:/maven-3.5.4/bin, env.USERNAME=Mikhail_Shevelin, file.encoding=Cp1251, spring.version=4.0.3.RELEASE, env.USERDOMAIN=MOSCOW, java.specification.version=1.8, env.=C:=C:\Users\mikhail_shevelin\workspace\react-back, env.PROCESSOR_LEVEL=6, env.MAVEN_PROJECTBASEDIR=C:\Users\mikhail_shevelin\workspace\react-back}
+[INFO] Processing war project
+[DEBUG] webapp sources directory does not exist - skipping.
+[DEBUG] Dump of the current build pathSet content -->
+[DEBUG] -- end of dump --
+[DEBUG]  * WEB-INF/web.xml is up to date.
+[DEBUG]  + WEB-INF/classes/org/misha/CorsFilter.class has been copied.
+[DEBUG]  + WEB-INF/classes/org/misha/Misha.class has been copied.
+[DEBUG]  + WEB-INF/classes/org/misha/MishaSerializer.class has been copied.
+[DEBUG]  + WEB-INF/classes/org/misha/MishaService.class has been copied.
+[DEBUG]  + WEB-INF/classes/org/misha/MishaServiceImpl.class has been copied.
+[DEBUG]  + WEB-INF/classes/org/misha/RestController.class has been copied.
+[DEBUG] Processing: commons-lang3-3.1.jar
+[DEBUG]  + WEB-INF/lib/commons-lang3-3.1.jar has been copied.
+[DEBUG] Processing: commons-io-1.3.2.jar
+[DEBUG]  + WEB-INF/lib/commons-io-1.3.2.jar has been copied.
+[DEBUG] Processing: commons-beanutils-1.9.2.jar
+[DEBUG]  + WEB-INF/lib/commons-beanutils-1.9.2.jar has been copied.
+[DEBUG] Processing: commons-logging-1.1.1.jar
+[DEBUG]  + WEB-INF/lib/commons-logging-1.1.1.jar has been copied.
+[DEBUG] Processing: commons-collections-3.2.1.jar
+[DEBUG]  + WEB-INF/lib/commons-collections-3.2.1.jar has been copied.
+[DEBUG] Processing: spring-core-4.0.3.RELEASE.jar
+[DEBUG]  + WEB-INF/lib/spring-core-4.0.3.RELEASE.jar has been copied.
+[DEBUG] Processing: spring-web-4.0.3.RELEASE.jar
+[DEBUG]  + WEB-INF/lib/spring-web-4.0.3.RELEASE.jar has been copied.
+[DEBUG] Processing: spring-aop-4.0.3.RELEASE.jar
+[DEBUG]  + WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar has been copied.
+[DEBUG] Processing: aopalliance-1.0.jar
+[DEBUG]  + WEB-INF/lib/aopalliance-1.0.jar has been copied.
+[DEBUG] Processing: spring-beans-4.0.3.RELEASE.jar
+[DEBUG]  + WEB-INF/lib/spring-beans-4.0.3.RELEASE.jar has been copied.
+[DEBUG] Processing: spring-context-4.0.3.RELEASE.jar
+[DEBUG]  + WEB-INF/lib/spring-context-4.0.3.RELEASE.jar has been copied.
+[DEBUG] Processing: spring-webmvc-4.0.3.RELEASE.jar
+[DEBUG]  + WEB-INF/lib/spring-webmvc-4.0.3.RELEASE.jar has been copied.
+[DEBUG] Processing: spring-expression-4.0.3.RELEASE.jar
+[DEBUG]  + WEB-INF/lib/spring-expression-4.0.3.RELEASE.jar has been copied.
+[DEBUG] Processing: spring-jdbc-4.0.3.RELEASE.jar
+[DEBUG]  + WEB-INF/lib/spring-jdbc-4.0.3.RELEASE.jar has been copied.
+[DEBUG] Processing: spring-tx-4.0.3.RELEASE.jar
+[DEBUG]  + WEB-INF/lib/spring-tx-4.0.3.RELEASE.jar has been copied.
+[DEBUG] Processing: servlet-api-2.5.jar
+[DEBUG]  + WEB-INF/lib/servlet-api-2.5.jar has been copied.
+[DEBUG] Processing: standard-1.1.1.jar
+[DEBUG]  + WEB-INF/lib/standard-1.1.1.jar has been copied.
+[DEBUG] Processing: c-1.1.1.tld
+[DEBUG]  + WEB-INF/tld/c-1.1.1.tld has been copied.
+[DEBUG] Processing: fmt-1.1.1.tld
+[DEBUG]  + WEB-INF/tld/fmt-1.1.1.tld has been copied.
+[DEBUG] Processing: jstl-1.2.jar
+[DEBUG]  + WEB-INF/lib/jstl-1.2.jar has been copied.
+[DEBUG] Processing: javax.inject-1.jar
+[DEBUG]  + WEB-INF/lib/javax.inject-1.jar has been copied.
+[DEBUG] Processing: mail-1.4.jar
+[DEBUG]  + WEB-INF/lib/mail-1.4.jar has been copied.
+[DEBUG] Processing: activation-1.1.jar
+[DEBUG]  + WEB-INF/lib/activation-1.1.jar has been copied.
+[DEBUG] Processing: commons-email-1.3.3.jar
+[DEBUG]  + WEB-INF/lib/commons-email-1.3.3.jar has been copied.
+[DEBUG] Processing: slf4j-api-1.6.1.jar
+[DEBUG]  + WEB-INF/lib/slf4j-api-1.6.1.jar has been copied.
+[DEBUG] Processing: log4j-1.2.17.jar
+[DEBUG]  + WEB-INF/lib/log4j-1.2.17.jar has been copied.
+[DEBUG] Processing: jcl-over-slf4j-1.6.1.jar
+[DEBUG]  + WEB-INF/lib/jcl-over-slf4j-1.6.1.jar has been copied.
+[DEBUG] Processing: slf4j-log4j12-1.6.1.jar
+[DEBUG]  + WEB-INF/lib/slf4j-log4j12-1.6.1.jar has been copied.
+[DEBUG] Processing: jquery-ui-core-6.2.1.jar
+[DEBUG]  + WEB-INF/lib/jquery-ui-core-6.2.1.jar has been copied.
+[DEBUG] Processing: aspectjrt-1.7.4.jar
+[DEBUG]  + WEB-INF/lib/aspectjrt-1.7.4.jar has been copied.
+[DEBUG] Processing: aspectjtools-1.7.4.jar
+[DEBUG]  + WEB-INF/lib/aspectjtools-1.7.4.jar has been copied.
+[DEBUG] Processing: mysql-connector-java-8.0.12.jar
+[DEBUG]  + WEB-INF/lib/mysql-connector-java-8.0.12.jar has been copied.
+[DEBUG] Processing: protobuf-java-2.6.0.jar
+[DEBUG]  + WEB-INF/lib/protobuf-java-2.6.0.jar has been copied.
+[DEBUG] Processing: jsr305-2.0.0.jar
+[DEBUG]  + WEB-INF/lib/jsr305-2.0.0.jar has been copied.
+[DEBUG] Processing: gson-2.8.5.jar
+[DEBUG]  + WEB-INF/lib/gson-2.8.5.jar has been copied.
+[INFO] Webapp assembled in [665 msecs]
+[DEBUG] Excluding [] from the generated webapp archive.
+[DEBUG] Including [**] in the generated webapp archive.
+[INFO] Building war: C:\Users\mikhail_shevelin\workspace\react-back\target\react-back.war
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory WEB-INF/
+[DEBUG] adding directory WEB-INF/classes/
+[DEBUG] adding directory WEB-INF/classes/org/
+[DEBUG] adding directory WEB-INF/classes/org/misha/
+[DEBUG] adding directory WEB-INF/lib/
+[DEBUG] adding directory WEB-INF/pages/
+[DEBUG] adding directory WEB-INF/tld/
+[DEBUG] adding entry WEB-INF/applicationContext.xml
+[DEBUG] adding entry WEB-INF/classes/org/misha/CorsFilter.class
+[DEBUG] adding entry WEB-INF/classes/org/misha/Misha.class
+[DEBUG] adding entry WEB-INF/classes/org/misha/MishaSerializer.class
+[DEBUG] adding entry WEB-INF/classes/org/misha/MishaService.class
+[DEBUG] adding entry WEB-INF/classes/org/misha/MishaServiceImpl.class
+[DEBUG] adding entry WEB-INF/classes/org/misha/RestController.class
+[DEBUG] adding entry WEB-INF/lib/activation-1.1.jar
+[DEBUG] adding entry WEB-INF/lib/aopalliance-1.0.jar
+[DEBUG] adding entry WEB-INF/lib/aspectjrt-1.7.4.jar
+[DEBUG] adding entry WEB-INF/lib/aspectjtools-1.7.4.jar
+[DEBUG] adding entry WEB-INF/lib/commons-beanutils-1.9.2.jar
+[DEBUG] adding entry WEB-INF/lib/commons-collections-3.2.1.jar
+[DEBUG] adding entry WEB-INF/lib/commons-email-1.3.3.jar
+[DEBUG] adding entry WEB-INF/lib/commons-io-1.3.2.jar
+[DEBUG] adding entry WEB-INF/lib/commons-lang3-3.1.jar
+[DEBUG] adding entry WEB-INF/lib/commons-logging-1.1.1.jar
+[DEBUG] adding entry WEB-INF/lib/gson-2.8.5.jar
+[DEBUG] adding entry WEB-INF/lib/javax.inject-1.jar
+[DEBUG] adding entry WEB-INF/lib/jcl-over-slf4j-1.6.1.jar
+[DEBUG] adding entry WEB-INF/lib/jquery-ui-core-6.2.1.jar
+[DEBUG] adding entry WEB-INF/lib/jsr305-2.0.0.jar
+[DEBUG] adding entry WEB-INF/lib/jstl-1.2.jar
+[DEBUG] adding entry WEB-INF/lib/log4j-1.2.17.jar
+[DEBUG] adding entry WEB-INF/lib/mail-1.4.jar
+[DEBUG] adding entry WEB-INF/lib/mysql-connector-java-8.0.12.jar
+[DEBUG] adding entry WEB-INF/lib/protobuf-java-2.6.0.jar
+[DEBUG] adding entry WEB-INF/lib/servlet-api-2.5.jar
+[DEBUG] adding entry WEB-INF/lib/slf4j-api-1.6.1.jar
+[DEBUG] adding entry WEB-INF/lib/slf4j-log4j12-1.6.1.jar
+[DEBUG] adding entry WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar
+[DEBUG] adding entry WEB-INF/lib/spring-beans-4.0.3.RELEASE.jar
+[DEBUG] adding entry WEB-INF/lib/spring-context-4.0.3.RELEASE.jar
+[DEBUG] adding entry WEB-INF/lib/spring-core-4.0.3.RELEASE.jar
+[DEBUG] adding entry WEB-INF/lib/spring-expression-4.0.3.RELEASE.jar
+[DEBUG] adding entry WEB-INF/lib/spring-jdbc-4.0.3.RELEASE.jar
+[DEBUG] adding entry WEB-INF/lib/spring-tx-4.0.3.RELEASE.jar
+[DEBUG] adding entry WEB-INF/lib/spring-web-4.0.3.RELEASE.jar
+[DEBUG] adding entry WEB-INF/lib/spring-webmvc-4.0.3.RELEASE.jar
+[DEBUG] adding entry WEB-INF/lib/standard-1.1.1.jar
+[DEBUG] adding entry WEB-INF/mvc-dispatcher-servlet.xml
+[DEBUG] adding entry WEB-INF/pages/index.jsp
+[DEBUG] adding entry WEB-INF/tld/c-1.1.1.tld
+[DEBUG] adding entry WEB-INF/tld/fmt-1.1.1.tld
+[DEBUG] adding entry WEB-INF/web.xml
+[INFO] WEB-INF\web.xml already added, skipping
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/org.misha/
+[DEBUG] adding directory META-INF/maven/org.misha/react-back/
+[DEBUG] adding entry META-INF/maven/org.misha/react-back/pom.xml
+[DEBUG] adding entry META-INF/maven/org.misha/react-back/pom.properties
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ react-back ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=93640, ConflictMarker.markTime=41157, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=85333, ConflictIdSorter.topsortTime=17746, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=357192, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=17592647, DefaultDependencyCollector.transformTime=613570}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-digest:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-digest:jar:1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[DEBUG]   (f) artifact = org.misha:react-back:war:1.0-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/mikhail_shevelin/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = war
+[DEBUG]   (f) pomFile = C:\Users\mikhail_shevelin\workspace\react-back\pom.xml
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing C:\Users\mikhail_shevelin\workspace\react-back\target\react-back.war to C:\Users\mikhail_shevelin\.m2\repository\org\misha\react-back\1.0-SNAPSHOT\react-back-1.0-SNAPSHOT.war
+[DEBUG] Writing tracking file C:\Users\mikhail_shevelin\.m2\repository\org\misha\react-back\1.0-SNAPSHOT\_remote.repositories
+[INFO] Installing C:\Users\mikhail_shevelin\workspace\react-back\pom.xml to C:\Users\mikhail_shevelin\.m2\repository\org\misha\react-back\1.0-SNAPSHOT\react-back-1.0-SNAPSHOT.pom
+[DEBUG] Writing tracking file C:\Users\mikhail_shevelin\.m2\repository\org\misha\react-back\1.0-SNAPSHOT\_remote.repositories
+[DEBUG] Installing org.misha:react-back:1.0-SNAPSHOT/maven-metadata.xml to C:\Users\mikhail_shevelin\.m2\repository\org\misha\react-back\1.0-SNAPSHOT\maven-metadata-local.xml
+[DEBUG] Installing org.misha:react-back/maven-metadata.xml to C:\Users\mikhail_shevelin\.m2\repository\org\misha\react-back\maven-metadata-local.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.888 s
+[INFO] Finished at: 2018-10-02T16:20:12+03:00
+[INFO] ------------------------------------------------------------------------
