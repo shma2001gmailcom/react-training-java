@@ -1,12 +1,19 @@
 package org.misha.impl;
 
 import org.misha.MishaService;
+import org.misha.Serializer;
 import org.misha.domain.Misha;
-import org.misha.serializer.MishaSerializer;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class MishaServiceImpl implements MishaService {
+    private final Serializer<Misha> serializer;
+
+    @Autowired
+    public MishaServiceImpl(Serializer<Misha> serializer) {
+        this.serializer = serializer;
+    }
 
     @Override
     public String getMisha(String value) {
@@ -16,6 +23,6 @@ public class MishaServiceImpl implements MishaService {
         } else {
             misha.setName(value + " isn't a misha. This is some other client!");
         }
-        return new MishaSerializer().serialize(misha);
+        return serializer.serialize(misha);
     }
 }

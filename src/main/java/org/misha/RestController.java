@@ -17,6 +17,7 @@ public class RestController {
     public RestController(final MishaServiceImpl mishaService) {
         this.mishaService = mishaService;
     }
+
     @RequestMapping(value = "request/for/misha", method = RequestMethod.GET)
     @ResponseBody
     public String call(@RequestParam(value = "misha") String value) {
