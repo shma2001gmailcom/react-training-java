@@ -379,7 +379,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
   <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
 </configuration>
 [DEBUG] =======================================================================
-[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1508060, ConflictMarker.markTime=724578, ConflictMarker.nodeCount=64, ConflictIdSorter.graphTime=1040237, ConflictIdSorter.topsortTime=582230, ConflictIdSorter.conflictIdCount=38, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=9647581, ConflictResolver.conflictItemCount=62, DefaultDependencyCollector.collectTime=383114412, DefaultDependencyCollector.transformTime=16076280}
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=814066, ConflictMarker.markTime=507091, ConflictMarker.nodeCount=64, ConflictIdSorter.graphTime=536921, ConflictIdSorter.topsortTime=445546, ConflictIdSorter.conflictIdCount=38, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=7586365, ConflictResolver.conflictItemCount=62, DefaultDependencyCollector.collectTime=236923603, DefaultDependencyCollector.transformTime=11910803}
 [DEBUG] org.misha:react-back:war:1.0-SNAPSHOT
 [DEBUG]    org.apache.commons:commons-lang3:jar:3.1:compile
 [DEBUG]    commons-io:commons-io:jar:1.3.2:compile
@@ -421,7 +421,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 [DEBUG]    com.google.code.gson:gson:jar:2.8.5:compile
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ react-back ---
-[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=17746, ConflictMarker.markTime=33227, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=5286, ConflictIdSorter.topsortTime=7551, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=69853, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=21235174, DefaultDependencyCollector.transformTime=183127}
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=23033, ConflictMarker.markTime=58903, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=7929, ConflictIdSorter.topsortTime=9817, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=233723, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=22594845, DefaultDependencyCollector.transformTime=397593}
 [DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
 [DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
 [DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
@@ -493,6 +493,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 [INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\aopalliance-1.0.jar
 [INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib\activation-1.1.jar
 [INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\lib
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org\misha\Serializer.class
 [INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org\misha\serializer\MishaSerializer.class
 [INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org\misha\serializer
 [INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\react-back\WEB-INF\classes\org\misha\RestController.class
@@ -515,6 +516,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 [INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\generated-sources\test-annotations
 [INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\generated-sources\annotations
 [INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\generated-sources
+[INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org\misha\Serializer.class
 [INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org\misha\serializer\MishaSerializer.class
 [INFO] Deleting directory C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org\misha\serializer
 [INFO] Deleting file C:\Users\mikhail_shevelin\workspace\react-back\target\classes\org\misha\RestController.class
@@ -536,7 +538,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 [DEBUG] Skipping non-existing directory C:\Users\mikhail_shevelin\workspace\react-back\target\site
 [INFO] 
 [INFO] --- maven-antrun-plugin:1.8:run (default) @ react-back ---
-[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=428555, ConflictMarker.markTime=533145, ConflictMarker.nodeCount=37, ConflictIdSorter.graphTime=70231, ConflictIdSorter.topsortTime=20389, ConflictIdSorter.conflictIdCount=18, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=545605, ConflictResolver.conflictItemCount=37, DefaultDependencyCollector.collectTime=136270237, DefaultDependencyCollector.transformTime=1620956}
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=278655, ConflictMarker.markTime=498407, ConflictMarker.nodeCount=37, ConflictIdSorter.graphTime=268083, ConflictIdSorter.topsortTime=26431, ConflictIdSorter.conflictIdCount=18, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1158797, ConflictResolver.conflictItemCount=37, DefaultDependencyCollector.collectTime=109452900, DefaultDependencyCollector.transformTime=2254916}
 [DEBUG] org.apache.maven.plugins:maven-antrun-plugin:jar:1.8:
 [DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
 [DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
@@ -727,7 +729,7 @@ fileset: Setup scanner in dir C:\Users\mikhail_shevelin\workspace\react-back\web
 [INFO] Executed tasks
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ react-back ---
-[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=257133, ConflictMarker.markTime=149145, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=131775, ConflictIdSorter.topsortTime=34360, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=973028, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=167250408, DefaultDependencyCollector.transformTime=1572626}
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2573217, ConflictMarker.markTime=386643, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=1184473, ConflictIdSorter.topsortTime=35115, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1882998, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=160578546, DefaultDependencyCollector.transformTime=6098316}
 [DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
 [DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
 [DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
@@ -795,7 +797,7 @@ includes []
 [DEBUG] no use filter components
 [INFO] 
 [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ react-back ---
-[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=234100, ConflictMarker.markTime=112897, ConflictMarker.nodeCount=101, ConflictIdSorter.graphTime=217486, ConflictIdSorter.topsortTime=32095, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=729487, ConflictResolver.conflictItemCount=49, DefaultDependencyCollector.collectTime=125690029, DefaultDependencyCollector.transformTime=1351742}
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=138195, ConflictMarker.markTime=81558, ConflictMarker.nodeCount=101, ConflictIdSorter.graphTime=73629, ConflictIdSorter.topsortTime=29451, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=621499, ConflictResolver.conflictItemCount=49, DefaultDependencyCollector.collectTime=77831596, DefaultDependencyCollector.transformTime=967741}
 [DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:2.3.2:
 [DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
 [DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
@@ -1057,7 +1059,7 @@ includes []
 [INFO] Compiling 1 source file to C:\Users\mikhail_shevelin\workspace\react-back\target\test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.4.3:test (default-test) @ react-back ---
-[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=238632, ConflictMarker.markTime=54371, ConflictMarker.nodeCount=63, ConflictIdSorter.graphTime=97038, ConflictIdSorter.topsortTime=34360, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=797452, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=29680158, DefaultDependencyCollector.transformTime=1241865}
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=101569, ConflictMarker.markTime=61546, ConflictMarker.nodeCount=63, ConflictIdSorter.graphTime=106100, ConflictIdSorter.topsortTime=36248, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2538857, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=17781815, DefaultDependencyCollector.transformTime=2871129}
 [DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.4.3:
 [DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
 [DEBUG]    org.apache.maven.surefire:surefire-booter:jar:2.4.3:compile
@@ -1192,13 +1194,13 @@ snapshots: [enabled => false, update => daily]
 [DEBUG] Setting system property [basedir]=[C:\Users\mikhail_shevelin\workspace\react-back]
 [DEBUG] Using JVM: C:\jdk1.8.0_171\jre\bin\java
 [INFO] Surefire report directory: C:\Users\mikhail_shevelin\workspace\react-back\target\surefire-reports
-Forking command line: cmd.exe /X /C "C:\jdk1.8.0_171\jre\bin\java -jar C:\Users\MIKHAI~1\AppData\Local\Temp\surefirebooter6533361518997335550.jar C:\Users\MIKHAI~1\AppData\Local\Temp\surefire6958920872008413727tmp C:\Users\MIKHAI~1\AppData\Local\Temp\surefire8144718645694712361tmp"
+Forking command line: cmd.exe /X /C "C:\jdk1.8.0_171\jre\bin\java -jar C:\Users\MIKHAI~1\AppData\Local\Temp\surefirebooter3052473108161424304.jar C:\Users\MIKHAI~1\AppData\Local\Temp\surefire1472741664865504758tmp C:\Users\MIKHAI~1\AppData\Local\Temp\surefire278415955257013317tmp"
 
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
 Running org.misha.MishaSerializerTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 sec
 
 Results :
 
@@ -1206,7 +1208,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO] 
 [INFO] --- maven-war-plugin:2.2:war (default-war) @ react-back ---
-[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=191811, ConflictMarker.markTime=854467, ConflictMarker.nodeCount=95, ConflictIdSorter.graphTime=87977, ConflictIdSorter.topsortTime=48330, ConflictIdSorter.conflictIdCount=30, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5243095, ConflictResolver.conflictItemCount=87, DefaultDependencyCollector.collectTime=60943515, DefaultDependencyCollector.transformTime=6463060}
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=257511, ConflictMarker.markTime=166136, ConflictMarker.nodeCount=95, ConflictIdSorter.graphTime=144991, ConflictIdSorter.topsortTime=56260, ConflictIdSorter.conflictIdCount=30, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1134254, ConflictResolver.conflictItemCount=87, DefaultDependencyCollector.collectTime=65079541, DefaultDependencyCollector.transformTime=1798043}
 [DEBUG] org.apache.maven.plugins:maven-war-plugin:jar:2.2:
 [DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
 [DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
@@ -1363,7 +1365,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 [DEBUG]  + WEB-INF/lib/jsr305-2.0.0.jar has been copied.
 [DEBUG] Processing: gson-2.8.5.jar
 [DEBUG]  + WEB-INF/lib/gson-2.8.5.jar has been copied.
-[INFO] Webapp assembled in [364 msecs]
+[INFO] Webapp assembled in [343 msecs]
 [DEBUG] Excluding [] from the generated webapp archive.
 [DEBUG] Including [**] in the generated webapp archive.
 [INFO] Building war: C:\Users\mikhail_shevelin\workspace\react-back\target\react-back.war
@@ -1434,7 +1436,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 [DEBUG] adding entry META-INF/maven/org.misha/react-back/pom.properties
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ react-back ---
-[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=90619, ConflictMarker.markTime=43045, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=44555, ConflictIdSorter.topsortTime=18879, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=385888, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=18057827, DefaultDependencyCollector.transformTime=601487}
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=82690, ConflictMarker.markTime=29452, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=29829, ConflictIdSorter.topsortTime=12838, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=430820, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=20157180, DefaultDependencyCollector.transformTime=605263}
 [DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.4:
 [DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
 [DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
@@ -1483,6 +1485,6 @@ snapshots: [enabled => true, update => always]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.925 s
-[INFO] Finished at: 2018-10-03T09:52:56+03:00
+[INFO] Total time: 6.319 s
+[INFO] Finished at: 2018-10-04T16:47:01+03:00
 [INFO] ------------------------------------------------------------------------

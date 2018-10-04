@@ -18,10 +18,10 @@ public class MishaServiceImpl implements MishaService {
     @Override
     public String getMisha(String value) {
         Misha misha = new Misha();
-        if ("misha".equalsIgnoreCase(value)) {
-            misha.setName(value + " is a misha.");
+        if ("igor".equalsIgnoreCase(value)) {
+            misha.setName(value + " is an Igor.");
         } else {
-            misha.setName(value + " isn't a misha. This is some other client!");
+            misha.setName(value + " isn't an Igor. This is some other client!");
         }
         return serializer.serialize(misha);
     }
