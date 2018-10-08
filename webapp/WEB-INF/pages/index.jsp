@@ -6,5 +6,5 @@
         <meta http-equiv="Access-Control-Allow-Origin" content="*">
         <meta http-equiv="refresh" content="0; URL='http://localhost:3000/'" />
     </head>
-<body></body>
+    <body></body>
 </html>
