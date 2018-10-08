@@ -9,7 +9,7 @@
 ## 5. copy new war from target dir to server webapp dir
 ## 6. start server
 ## 7. open project home page
-appname="react-back"
+appname="react-training-java"
 ############### properties ####################
 ################ AT WORK ######################
 ###############################################
