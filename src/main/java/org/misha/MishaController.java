@@ -1,6 +1,5 @@
 package org.misha;
 
-import org.misha.impl.MishaServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,17 +9,17 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping(value = "/")
-public class RestController {
-    private final MishaServiceImpl mishaService;
+public class MishaController {
+    private final MishaService mishaService;
 
     @Autowired
-    public RestController(final MishaServiceImpl mishaService) {
+    public MishaController(final MishaService mishaService) {
         this.mishaService = mishaService;
     }
 
     @RequestMapping(value = "request/for/misha", method = RequestMethod.GET)
     @ResponseBody
-    public String call(@RequestParam(value = "misha") String value) {
+    public String getMisha(@RequestParam(value = "misha") String value) {
         return mishaService.getMisha(value);
     }
 }
