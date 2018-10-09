@@ -1,6 +1,8 @@
 package org.misha;
 
+import org.misha.domain.MishaResponse;
+
 public interface MishaService {
 
-    String getMisha(String value);
+    MishaResponse response(String value);
 }

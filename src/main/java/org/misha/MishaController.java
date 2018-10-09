@@ -1,5 +1,6 @@
 package org.misha;
 
+import org.misha.serializer.MishaSerializer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,6 +21,6 @@ public class MishaController {
     @RequestMapping(value = "request/for/misha", method = RequestMethod.GET)
     @ResponseBody
     public String getMisha(@RequestParam(value = "misha") final String value) {
-        return mishaService.getMisha(value);
+        return new MishaSerializer().serialize(mishaService.response(value));
     }
 }
