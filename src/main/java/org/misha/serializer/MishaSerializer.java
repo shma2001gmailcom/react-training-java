@@ -7,7 +7,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MishaSerializer implements Serializer<Misha> {
+    private static final Gson gson = new Gson();
+
     public String serialize(Misha misha) {
-        return new Gson().toJson(misha);
+        return gson.toJson(misha);
     }
 }

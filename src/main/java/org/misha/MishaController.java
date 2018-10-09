@@ -19,7 +19,7 @@ public class MishaController {
 
     @RequestMapping(value = "request/for/misha", method = RequestMethod.GET)
     @ResponseBody
-    public String getMisha(@RequestParam(value = "misha") String value) {
+    public String getMisha(@RequestParam(value = "misha") final String value) {
         return mishaService.getMisha(value);
     }
 }

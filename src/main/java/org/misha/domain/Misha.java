@@ -1,22 +1,11 @@
 package org.misha.domain;
 
 public class Misha {
-    private String name;
-    private String message;
+    private final String name;
+    private final String message;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
+    public Misha(String name, String message) {
         this.name = name;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
         this.message = message;
     }
 }

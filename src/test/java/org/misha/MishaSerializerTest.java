@@ -10,8 +10,6 @@ public class MishaSerializerTest {
 
     @Test
     public void serialize() {
-        Misha misha = new Misha();
-        misha.setName("misha");
-        assertNotNull(new MishaSerializer().serialize(misha));
+        assertNotNull(new MishaSerializer().serialize(new Misha("misha", null)));
     }
 }
