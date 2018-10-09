@@ -19,9 +19,11 @@ public class MishaServiceImpl implements MishaService {
     public String getMisha(String value) {
         Misha misha = new Misha();
         if ("igor".equalsIgnoreCase(value)) {
-            misha.setName(value + " is an Igor.");
+            misha.setName(value);
+            misha.setMessage(" is an Igor.");
         } else {
-            misha.setName(value + " isn't an Igor. This is some other client!");
+            misha.setName(value);
+            misha.setMessage(" isn't an Igor. This is some other client!");
         }
         return serializer.serialize(misha);
     }
